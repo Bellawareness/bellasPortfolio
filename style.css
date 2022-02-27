@@ -2,8 +2,100 @@ h3 {
   color: #3d97a9;
 }
 
+h6{
+    color: #3d97a9;
+	padding:3px 2px ;
+  	margin:25px 5px 0px;
 
+}
 .bg-color{
   background: #D1ECF1;
 }
 
+.border{
+    	padding:33px 32px;
+
+}
+.myButton {
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	background-color:#ffffff;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#2a4c4a;
+	font-size:14px;
+	font-weight:bold;
+	padding:13px 32px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #d1ecf2 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#aboutme {
+  	padding:13px 32px;
+
+}
+#experience{
+  	padding:13px 32px;
+
+}
+#skills{
+  	padding:13px 32px;
+}
+#projects{
+
+  	padding:13px 32px;
+}
+
+#interests{
+
+  	padding:13px 32px;
+}
+
+
+
+.nav-link{
+   	background-color:#e9eff1;
+  color:#408c99;
+}
+.navbar-toggler{
+      text-align: center;
+
+}
+
+.myButton1 {
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+	box-shadow: 0px 10px 14px -7px #c9e4e9;
+	background:linear-gradient(to bottom, #e1ecf4 5%, #ccdde0 100%);
+	background-color:#e9eff1;
+	display:inline-block;
+	cursor:pointer;
+	color:#dcefee;
+	padding:5px 5px;
+  	margin:5px 5px;
+
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #d1ecf2 50%, #A34EF7 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.container1{
+    background: #D1ECF1;
+
+}
+footer {
+  color:#A34EF7;
+  	margin:25px 25px;
+      text-align: center;
+
+}
