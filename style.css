@@ -58,6 +58,11 @@ h6{
 }
 
 
+#education{
+
+  	padding:13px 32px;
+}
+
 
 .nav-link{
    	background-color:#e9eff1;
@@ -92,6 +97,11 @@ h6{
 .container1{
     background: #D1ECF1;
 
+}
+
+.btn-primary{
+  	background:linear-gradient(to bottom, #d1ecf2 50%, #A34EF7 100%);
+  	padding:5px 5px;
 }
 footer {
   color:#A34EF7;
