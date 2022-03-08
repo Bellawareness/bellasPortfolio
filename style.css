@@ -9,7 +9,9 @@ h6{
 
 }
 .bg-color{
-  background: #D1ECF1;
+  background: #c1d9e2;
+    opacity: 0.6;
+
 }
 
 .border{
@@ -103,9 +105,26 @@ h6{
   	background:linear-gradient(to bottom, #d1ecf2 50%, #A34EF7 100%);
   	padding:5px 5px;
 }
-footer {
+footer
   color:#A34EF7;
   	margin:25px 25px;
       text-align: center;
 
 }
+
+.jumbotron{
+  background-attachment: fixed;
+
+}
+
+
+
+
+.alert,
+.display-4{
+ background-color: #565252;
+  border: 1px solid white;
+  opacity: 0.6;
+  color: whitesmoke;
+}
+
