@@ -27,7 +27,7 @@ h6{
 	color:#2a4c4a;
 	font-size:14px;
 	font-weight:bold;
-	padding:13px 32px;
+	padding:2px 2px;
 }
 .myButton:hover {
 	background:linear-gradient(to bottom, #d1ecf2 5%, #599bb3 100%);
@@ -51,12 +51,12 @@ h6{
 }
 #projects{
 
-  	padding:13px 32px;
+  	padding:33px 32px;
 }
 
 #interests{
 
-  	padding:13px 32px;
+  	padding:33px 32px;
 }
 
 
@@ -105,7 +105,8 @@ h6{
   	background:linear-gradient(to bottom, #d1ecf2 50%, #A34EF7 100%);
   	padding:5px 5px;
 }
-footer
+
+footer{
   color:#A34EF7;
   	margin:25px 25px;
       text-align: center;
@@ -122,9 +123,9 @@ footer
 
 .alert,
 .display-4{
- background-color: #565252;
-  border: 1px solid white;
-  opacity: 0.6;
-  color: whitesmoke;
+ background-color: #cadddb;
+  border: 1px solid skyblue;
+  opacity: 0.9;
+  color: black;
 }
 
