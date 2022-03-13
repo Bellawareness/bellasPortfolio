@@ -1,3 +1,8 @@
+body {
+  background-image: url("./Images/b2.jpg");
+background-size: cover;
+}
+
 h3 {
   color: #3d97a9;
 }
@@ -8,6 +13,8 @@ h6{
   	margin:25px 5px 0px;
 
 }
+
+.font-weight-light,
 .bg-color{
   background: #c1d9e2;
     opacity: 0.6;
@@ -19,8 +26,7 @@ h6{
 
 }
 .myButton {
-	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
-	background-color:#ffffff;
+
 	border-radius:8px;
 	display:inline-block;
 	cursor:pointer;
@@ -28,14 +34,20 @@ h6{
 	font-size:14px;
 	font-weight:bold;
 	padding:2px 2px;
+    opacity: 0.9;
+
 }
 .myButton:hover {
 	background:linear-gradient(to bottom, #d1ecf2 5%, #599bb3 100%);
 	background-color:#408c99;
+    opacity: 0.9;
+
 }
 .myButton:active {
 	position:relative;
 	top:1px;
+    opacity: 0.9;
+
 }
 
 #aboutme {
@@ -87,31 +99,42 @@ h6{
   	margin:5px 5px;
 
 	text-shadow:0px 1px 0px #3d768a;
+    opacity: 0.9;
+
 }
 .myButton:hover {
 	background:linear-gradient(to bottom, #d1ecf2 50%, #A34EF7 100%);
 	background-color:#408c99;
+    opacity: 0.9;
+
 }
 .myButton:active {
 	position:relative;
 	top:1px;
+    opacity: 0.9;
+
 }
 .container1{
     background: #D1ECF1;
+  opacity: 0.9;
 
 }
 
 .btn-primary{
   	background:linear-gradient(to bottom, #d1ecf2 50%, #A34EF7 100%);
   	padding:5px 5px;
+    opacity: 0.9;
+
 }
 
 footer{
   color:#A34EF7;
   	margin:25px 25px;
       text-align: center;
-
+ background-color: #cadddb;
+    opacity: 0.6;
 }
+
 
 .jumbotron{
   background-attachment: fixed;
@@ -129,3 +152,8 @@ footer{
   color: black;
 }
 
+
+.font-weight-light{
+  background: #fafafa;
+    opacity: 0.6;
+}
