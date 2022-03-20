@@ -1,32 +1,70 @@
 body {
-  background-image: url("./Images/b2.jpg");
+  background-image: url("./Images/b3.jpg");
 background-size: cover;
 }
 
-h3 {
+h3,
+h2{
   color: #3d97a9;
+}
+.alert,
+h1{
+    margin:45px 45px;
+  padding:20px 20px;
+
+  text-align: center;
+ 	box-shadow: 0px 10px 14px -7px #dbe8eb;
+	background:linear-gradient(to bottom, #93e0ec 5%, #ccdde0 100%);
+	background-color:#89b4c2;
+  color:#408c99;
+	font-size:19px;
+
 }
 
 h6{
     color: #3d97a9;
 	padding:3px 2px ;
   	margin:25px 5px 0px;
+	font-size:14px;
+}
+
+h4{
+    box-shadow: 3px 4px 50px 2px #3d97a9;
+	background-color:transparent;
+	border-radius:51%;             
+	border:1px solid #e8eced;
+	cursor:pointer;
+	color:#161717;
+	font-family:Arial;
+	font-size:27px;
+	font-weight:bold;
+	padding:18px 36px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d97a9;
+        text-align: center;
+
 
 }
 
 .font-weight-light,
 .bg-color{
-  background: #c1d9e2;
-    opacity: 0.6;
+  margin:45px 45px;
+  padding:20px 20px;
+
+  text-align: center;
+ 	box-shadow: 0px 10px 14px -7px #dbe8eb;
+	background:linear-gradient(to bottom, #93e0ec 5%, #ccdde0 100%);
+	background-color:#89b4c2;
+  color:#408c99;
+	font-size:19px;
+
 
 }
 
 .border{
     	padding:33px 32px;
-
 }
 .myButton {
-
 	border-radius:8px;
 	display:inline-block;
 	cursor:pointer;
@@ -46,7 +84,7 @@ h6{
 .myButton:active {
 	position:relative;
 	top:1px;
-    opacity: 0.9;
+  opacity: 0.9;
 
 }
 
@@ -77,13 +115,21 @@ h6{
   	padding:13px 32px;
 }
 
+#Business {
+    	padding:13px 32px;
+
+}
+
+
 
 .nav-link{
-   	background-color:#e9eff1;
+  background-color:#e9eff1;
   color:#408c99;
+   
 }
 .navbar-toggler{
       text-align: center;
+
 
 }
 
@@ -131,8 +177,11 @@ footer{
   color:#A34EF7;
   	margin:25px 25px;
       text-align: center;
- background-color: #cadddb;
+	background-color:transparent;
     opacity: 0.6;
+  	padding:25px 15px;
+  	margin:35px 15px;
+
 }
 
 
@@ -140,8 +189,6 @@ footer{
   background-attachment: fixed;
 
 }
-
-
 
 
 .alert,
@@ -153,7 +200,55 @@ footer{
 }
 
 
-.font-weight-light{
-  background: #fafafa;
-    opacity: 0.6;
+
+.nav-pills{
+justify-content: space-around;
+
+}
+figcaption{
+  	color:#54706E;
+	font-weight:bold;
+
+}
+
+.projectc{
+  margin:45px 45px;
+  padding:20px 20px;
+
+  text-align: center;
+ 	box-shadow: 0px 10px 14px -7px #dbe8eb;
+	background:linear-gradient(to bottom, #93e0ec 5%, #ccdde0 100%);
+	background-color:#89b4c2;
+  color:#408c99;
+	font-size:19px;
+
+}
+
+button1{
+    border-radius: 50% 50% ;
+
+	box-shadow: 0px 10px 14px -7px #c9e4e9;
+	background:linear-gradient(to bottom, #55CBDD 5%, #ccdde0 100%);
+	background-color:#89b4c2;
+	display:inline-block;
+	cursor:pointer;
+	color:#2a4745;
+	padding:20px 20px;
+  	margin:25px 25px;
+
+	text-shadow:0px 1px 0px #3d768a;
+
+}
+
+/* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 1200px) {
+  .responsive-font-example {
+    font-size: 80px;
+  }
+}
+/* If the screen size is smaller than 1200px, set the font-size to 80px */
+@media (max-width: 1199.98px) {
+  .responsive-font-example {
+    font-size: 30px;
+  }
 }
