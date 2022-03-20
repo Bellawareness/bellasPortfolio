@@ -1,11 +1,12 @@
 body {
   background-image: url("./Images/b3.jpg");
 background-size: cover;
+  
 }
-
+/*  Header tags */
 h3,
 h2{
-  color: #3d97a9;
+  color: #eff5f6;
 }
 .alert,
 h1{
@@ -18,6 +19,7 @@ h1{
 	background-color:#89b4c2;
   color:#408c99;
 	font-size:19px;
+    opacity: 0.89;
 
 }
 
@@ -46,9 +48,10 @@ h4{
 
 }
 
+
+/*  carousel info */
 .font-weight-light,
 .bg-color{
-  margin:45px 45px;
   padding:20px 20px;
 
   text-align: center;
@@ -57,39 +60,53 @@ h4{
 	background-color:#89b4c2;
   color:#408c99;
 	font-size:19px;
+    opacity: 0.89;
 
 
 }
+/*  carousel info */
+
+/*  border on my pic info */
 
 .border{
-    	padding:33px 32px;
+    	padding:45px 35px;
 }
+/*  border on my pic info */
+
+
+/*  skills info */
+
+
 .myButton {
-	border-radius:8px;
 	display:inline-block;
 	cursor:pointer;
-	color:#2a4c4a;
+	color:#408c99;
 	font-size:14px;
 	font-weight:bold;
 	padding:2px 2px;
-    opacity: 0.9;
 
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #d1ecf2 5%, #599bb3 100%);
+	background:linear-gradient(to bottom, #d1ecf2 5%, #93e0ec 100%);
 	background-color:#408c99;
-    opacity: 0.9;
+    opacity: 0.69;
 
 }
 .myButton:active {
 	position:relative;
 	top:1px;
-  opacity: 0.9;
-
 }
 
+/*  skills info */
+
+
 #aboutme {
-  	padding:13px 32px;
+  	padding:13px 12px;
+  }
+
+  #education{
+
+  	padding:12px 32px;
 
 }
 #experience{
@@ -99,39 +116,40 @@ h4{
 #skills{
   	padding:13px 32px;
 }
-#projects{
-
-  	padding:33px 32px;
-}
-
-#interests{
-
-  	padding:33px 32px;
-}
-
-
-#education{
-
-  	padding:13px 32px;
-}
 
 #Business {
     	padding:13px 32px;
 
 }
+#projects{
+
+    	padding:13px 32px;
+}
+
+#interests{
+
+    	padding:13px 32px;
+}
 
 
-
+/* nav edit */
+.nav-item,
 .nav-link{
-  background-color:#e9eff1;
+/*   	background-color:transparent; */
+
+	background-color:#ABD7DE;
   color:#408c99;
-   
+         text-align: center;
+
 }
 .navbar-toggler{
-      text-align: center;
 
+	background-color:#ABD7DE;
+    opacity: 0.86;
 
 }
+/* nav edit */
+/* project button */
 
 .myButton1 {
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
@@ -140,38 +158,40 @@ h4{
 	background-color:#e9eff1;
 	display:inline-block;
 	cursor:pointer;
-	color:#dcefee;
+	color:#38948f;
 	padding:5px 5px;
   	margin:5px 5px;
 
 	text-shadow:0px 1px 0px #3d768a;
-    opacity: 0.9;
+    opacity: 0.69;
 
 }
-.myButton:hover {
-	background:linear-gradient(to bottom, #d1ecf2 50%, #A34EF7 100%);
+.myButton1:hover {
+	background:linear-gradient(to bottom, #d1ecf2 50%, #93e0ec 100%);
 	background-color:#408c99;
     opacity: 0.9;
 
 }
-.myButton:active {
+.myButton1:active {
 	position:relative;
 	top:1px;
-    opacity: 0.9;
 
 }
-.container1{
-    background: #D1ECF1;
-  opacity: 0.9;
 
-}
+/* project button */
+
+/* education button */
 
 .btn-primary{
   	background:linear-gradient(to bottom, #d1ecf2 50%, #A34EF7 100%);
   	padding:5px 5px;
-    opacity: 0.9;
+    opacity: 0.79;
 
 }
+/* education button */
+
+
+/* footer info */
 
 footer{
   color:#A34EF7;
@@ -183,33 +203,30 @@ footer{
   	margin:35px 15px;
 
 }
+/* footer info */
 
 
-.jumbotron{
-  background-attachment: fixed;
-
-}
-
-
-.alert,
-.display-4{
- background-color: #cadddb;
-  border: 1px solid skyblue;
-  opacity: 0.9;
-  color: black;
-}
-
-
+/* footer nav bar */
 
 .nav-pills{
 justify-content: space-around;
 
 }
+
+/* footer nav bar */
+
+
+/* location info */
+
 figcaption{
-  	color:#54706E;
+  	color:#408c99;
 	font-weight:bold;
 
 }
+/* location info */
+
+/* project info */
+
 
 .projectc{
   margin:45px 45px;
@@ -221,7 +238,8 @@ figcaption{
 	background-color:#89b4c2;
   color:#408c99;
 	font-size:19px;
-
+    opacity: 0.89;
+.
 }
 
 button1{
@@ -232,13 +250,23 @@ button1{
 	background-color:#89b4c2;
 	display:inline-block;
 	cursor:pointer;
-	color:#2a4745;
+	color:#408c99;
 	padding:20px 20px;
-  	margin:25px 25px;
-
-	text-shadow:0px 1px 0px #3d768a;
+  margin:25px 25px;
+  text-shadow:0px 1px 0px #3d768a;
+  opacity: 0.89;
 
 }
+
+/* project info */
+
+
+.card,
+.collapse,
+  .accordion{
+      opacity: 0.79;
+
+  }
 
 /* If the screen size is 1200px wide or more, set the font-size to 80px */
 @media (min-width: 1200px) {
