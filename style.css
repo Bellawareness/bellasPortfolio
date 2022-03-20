@@ -1,7 +1,7 @@
 body {
   background-image: url("./Images/b3.jpg");
 background-size: cover;
-  
+
 }
 /*  Header tags */
 h3,
@@ -10,7 +10,7 @@ h2{
 }
 .alert,
 h1{
-    margin:45px 45px;
+    margin:25px 45px;
   padding:20px 20px;
 
   text-align: center;
@@ -47,12 +47,11 @@ h4{
 
 
 }
+/*  about info */
 
-
-/*  carousel info */
-.font-weight-light,
-.bg-color{
-  padding:20px 20px;
+.font-weight-light{
+  padding:20px 10px;
+    margin:15px 25px;
 
   text-align: center;
  	box-shadow: 0px 10px 14px -7px #dbe8eb;
@@ -61,6 +60,26 @@ h4{
   color:#408c99;
 	font-size:19px;
     opacity: 0.89;
+
+
+}
+/*  about info */
+
+
+
+/*  carousel info */
+
+.bg-color{
+  padding:20px 20px;
+    margin:45px 55px;
+
+  text-align: center;
+ 	box-shadow: 0px 10px 14px -7px #dbe8eb;
+	background:linear-gradient(to bottom, #93e0ec 5%, #ccdde0 100%);
+	background-color:#89b4c2;
+  color:#408c99;
+	font-size:15px;
+    opacity: 0.79;
 
 
 }
@@ -101,20 +120,20 @@ h4{
 
 
 #aboutme {
-  	padding:13px 12px;
+  	padding:10px 12px;
   }
 
   #education{
 
-  	padding:12px 32px;
+  	padding:10px 32px;
 
 }
 #experience{
-  	padding:13px 32px;
+  	padding:10px 32px;
 
 }
 #skills{
-  	padding:13px 32px;
+  	padding:10px 32px;
 }
 
 #Business {
@@ -123,23 +142,26 @@ h4{
 }
 #projects{
 
-    	padding:13px 32px;
+    	padding:10px 32px;
 }
 
 #interests{
 
-    	padding:13px 32px;
+    	padding:10px 32px;
 }
 
 
 /* nav edit */
-.nav-item,
+.nav-item{
+  	background-color:transparent; 
+    justify-content: space-around;
+
+}
 .nav-link{
-/*   	background-color:transparent; */
 
 	background-color:#ABD7DE;
   color:#408c99;
-         text-align: center;
+    opacity: 0.86;
 
 }
 .navbar-toggler{
@@ -149,6 +171,7 @@ h4{
 
 }
 /* nav edit */
+
 /* project button */
 
 .myButton1 {
@@ -160,7 +183,7 @@ h4{
 	cursor:pointer;
 	color:#38948f;
 	padding:5px 5px;
-  	margin:5px 5px;
+  margin:5px 5px;
 
 	text-shadow:0px 1px 0px #3d768a;
     opacity: 0.69;
@@ -195,12 +218,14 @@ h4{
 
 footer{
   color:#A34EF7;
-  	margin:25px 25px;
-      text-align: center;
+  margin:25px 25px;
+  text-align: center;
 	background-color:transparent;
-    opacity: 0.6;
-  	padding:25px 15px;
-  	margin:35px 15px;
+  opacity: 0.6;
+  padding:25px 15px;
+  margin:35px 15px;
+  font-size:16px;
+	font-weight:bold;
 
 }
 /* footer info */
@@ -260,23 +285,61 @@ button1{
 
 /* project info */
 
-
 .card,
-.collapse,
   .accordion{
       opacity: 0.79;
 
   }
 
-/* If the screen size is 1200px wide or more, set the font-size to 80px */
-@media (min-width: 1200px) {
-  .responsive-font-example {
-    font-size: 80px;
+
+@media only screen and (max-width: 600px) {
+  .nav-pills{
+        display: none;
+
   }
+  body {
+
+background-size: cover;
+  background-attachment: fixed;
+  
 }
-/* If the screen size is smaller than 1200px, set the font-size to 80px */
-@media (max-width: 1199.98px) {
-  .responsive-font-example {
-    font-size: 30px;
-  }
+}
+
+  
+.astrodivider {
+  margin:64px auto;
+  width:400px; 
+  max-width: 100%;
+  position:relative;
+}
+
+.astrodividermask { 
+    overflow:hidden; height:20px; 
+}
+
+.astrodividermask:after { 
+      content:''; 
+      display:block; margin:-25px auto 0;
+      width:100%; height:25px;  
+        border-radius:125px / 12px;
+       box-shadow:0 0 8px #55CBDD;
+}
+.astrodivider span {
+    width:50px; height:50px; 
+    position:absolute; 
+    bottom:100%; margin-bottom:-25px;
+    left:50%; margin-left:-25px;
+    border-radius:100%;
+   box-shadow:0 2px 4px #55CBDD;
+}
+.astrodivider i {
+    position:absolute;
+    top:4px; bottom:4px;
+    left:4px; right:4px;
+    border-radius:100%;
+    border:1px dashed #68beaa;
+    text-align:center;
+    line-height:40px;
+    font-style:normal;
+     color:#55CBDD;
 }

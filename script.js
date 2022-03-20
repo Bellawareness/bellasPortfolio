@@ -16,7 +16,7 @@ const Iam = {
 
 var i = 0;
 var txt = Iam.myPortfoilo();
-var speed = 50;
+var speed = 60;
 
 function typeWriter() {
   if (i < txt.length) {
