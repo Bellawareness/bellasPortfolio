@@ -7,6 +7,8 @@ background-size: cover;
 h3,
 h2{
   color: #eff5f6;
+  	text-shadow:1px 1px 1px #3d768a;
+
 }
 .alert,
 h1{
@@ -31,19 +33,17 @@ h6{
 }
 
 h4{
-    box-shadow: 3px 4px 50px 2px #3d97a9;
+  box-shadow: 3px 4px 50px 2px #3d97a9;
 	background-color:transparent;
 	border-radius:51%;             
 	border:1px solid #e8eced;
 	cursor:pointer;
-	color:#161717;
-	font-family:Arial;
-	font-size:27px;
+	font-size:17px;
 	font-weight:bold;
 	padding:18px 36px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #3d97a9;
-        text-align: center;
+	text-shadow:0px 1px 0px #eaf4f6;
+  text-align: center;
 
 
 }
@@ -226,6 +226,7 @@ footer{
   margin:35px 15px;
   font-size:16px;
 	font-weight:bold;
+  text-shadow:1px 1px 1px #edf5f8;
 
 }
 /* footer info */
