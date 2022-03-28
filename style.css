@@ -35,7 +35,7 @@ h6{
 
 h4{
   box-shadow: 3px 4px 50px 2px #3d97a9;
-	background-color:transparent;
+	background-color:#89b4c2;
 	border-radius:51%;             
 	border:1px solid #e8eced;
 	cursor:pointer;
@@ -51,9 +51,8 @@ h4{
 /*  about info */
 
 .font-weight-light{
-  padding:20px 10px 5px;
-    margin:15px 25px 5px;
-
+  padding:20px 20px;
+  margin:5px 15px;
   text-align: center;
  	box-shadow: 0px 10px 14px -7px #dbe8eb;
 	background:linear-gradient(to bottom, #93e0ec 5%, #ccdde0 100%);
@@ -62,29 +61,10 @@ h4{
 	font-size:19px;
     opacity: 0.89;
 
-
 }
-/*  about info */
-
-
-
-/*  carousel info */
-
-.bg-color{
-  padding:20px 20px;
-    margin:45px 55px;
-
-  text-align: center;
- 	box-shadow: 0px 10px 14px -7px #dbe8eb;
-	background:linear-gradient(to bottom, #93e0ec 5%, #ccdde0 100%);
-	background-color:#89b4c2;
-  color:#408c99;
-	font-size:15px;
-    opacity: 0.79;
-
-
+.row{
+	text-align: center;
 }
-/*  carousel info */
 
 /*  border on my pic info */
 
@@ -92,6 +72,25 @@ h4{
     	padding:45px 35px;
 }
 /*  border on my pic info */
+
+/*  about info */
+
+
+
+/*  carousel info */
+
+.bg-color{
+	margin: 30px 30px 20px;
+  padding:20px 20px;
+  text-align: center;
+ 	box-shadow: 0px 10px 14px -7px #dbe8eb;
+	background:linear-gradient(to bottom, #93e0ec 5%, #ccdde0 100%);
+	background-color:#1a343c;
+  color:#1e2c2f;
+	font-size:15px;
+    opacity: 0.69;
+}
+/*  carousel info */
 
 
 /*  skills info */
@@ -146,7 +145,7 @@ h4{
 
 #projects{
 
-    	padding:10px 2px;
+    	padding:10px 12px;
 }
 
 
@@ -248,7 +247,7 @@ justify-content: space-around;
 figcaption{
   	color:#408c99;
 	font-weight:bold;
-
+ margin:15px;
 }
 /* location info */
 
@@ -343,3 +342,6 @@ button1{
     font-style:normal;
      color:#55CBDD;
 }
+
+
+
