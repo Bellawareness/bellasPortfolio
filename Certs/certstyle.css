@@ -63,3 +63,23 @@ img.zoom {
   height: auto;
 }
 
+/* button  */
+.btn {
+	background:linear-gradient(to bottom, #d1ecf2 50%, #A34EF7 100%);
+  	padding:5px 5px;
+    opacity: 0.79;
+  border: none;
+  color: #408c99;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+.center{
+		text-align: center; 
+}
