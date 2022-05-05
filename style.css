@@ -6,6 +6,7 @@
 body {
   background-image: url("./Images/b3.jpg");
 background-size: cover;
+  background-position: 5% 60%; 
 
 }
 /* nav edit */
@@ -332,15 +333,6 @@ footer{
 /* footer info */
 
 
-/* footer nav bar */
-
-.nav-pills{
-justify-content: space-around;
-
-}
-
-/* footer nav bar */
-
 
 
 /* 	media query */
@@ -373,9 +365,10 @@ justify-content: space-around;
   .column {
     width: 100%;
   }
+
 }
 
-.accordion{
+/* .accordion{
 	  padding-right: 30px;
 
-}
+} */
