@@ -1,3 +1,8 @@
+
+
+
+
+
 body {
   background-image: url("./Images/b3.jpg");
 background-size: cover;
@@ -216,36 +221,34 @@ figcaption{
 }
 /* project  */
 
-
-.myButton1 {
-  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-	box-shadow: 0px 10px 14px -7px #c9e4e9;
-	background:linear-gradient(to bottom, #e1ecf4 5%, #ccdde0 100%);
-	background-color:#e9eff1;
-	display:inline-block;
-	cursor:pointer;
-	color:#38948f;
-	padding:5px 5px;
-  margin:5px 5px;
-	text-shadow:0px 1px 0px #3d768a;
-    opacity: 0.69;
-
-}
-.myButton1:hover {
-	background:linear-gradient(to bottom, #d1ecf2 50%, #93e0ec 100%);
-	background-color:#408c99;
-    opacity: 0.9;
-
-}
-.myButton1:active {
-	position:relative;
-	top:1px;
-
-}
-
 /* project  */
 
+.card1 {
+	background:linear-gradient(to bottom, #d1ecf2 5%, #93e0ec 100%);
+	border: 1px solid #38948f;
+  color: #408c99;
+  margin-bottom: 2rem;
+	    opacity: 0.9;
 
+}
+
+/* .btn1 {
+  border: 5px solid;
+  border-image-slice: 1;
+  background: var(--gradient) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  border-image-source:  var(--gradient) !important; 
+  text-decoration: none;
+  transition: all .4s ease;
+}
+
+.btn1:hover, .btn1:focus {
+      background: var(--gradient) !important;
+  border: 5px solid  #38948f!important; 
+  box-shadow: #222 1px 0 10px;
+  text-decoration: underline;
+} */
 
 
 
@@ -267,23 +270,6 @@ figcaption{
 	font-size:19px;
     opacity: 0.89;
 .
-}
-
-/* 	button of project */
-button1{
-    border-radius: 50% 50% ;
-
-	box-shadow: 0px 10px 14px -7px #c9e4e9;
-	background:linear-gradient(to bottom, #55CBDD 5%, #ccdde0 100%);
-	background-color:#89b4c2;
-	display:inline-block;
-	cursor:pointer;
-	color:#408c99;
-	padding:20px 20px;
-  margin:25px 25px;
-  text-shadow:0px 1px 0px #3d768a;
-  opacity: 0.89;
-
 }
 
 
@@ -334,15 +320,13 @@ button1{
 
 footer{
   color:#A34EF7;
-  margin:25px 25px;
-  text-align: center;
 	background-color:transparent;
   opacity: 0.6;
-  padding:25px 15px;
-  margin:35px 15px;
   font-size:16px;
 	font-weight:bold;
   text-shadow:1px 1px 1px #edf5f8;
+	  text-align: center;
+
 
 }
 /* footer info */
@@ -370,3 +354,4 @@ justify-content: space-around;
   background-repeat: repeat; background-size: contain;
 }
 }
+
